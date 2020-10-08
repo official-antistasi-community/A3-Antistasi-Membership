@@ -9,7 +9,7 @@ class CfgPatches
 		url = "http://a3antistasi.enjin.com";
 
 		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game.
-		requiredVersion = 1.60; 
+		requiredVersion = 1.60;
 		// Required addons, used for setting load order.
 		// When any of the addons is missing, pop-up warning will appear when launching the game.
 		requiredAddons[] = {};
@@ -33,6 +33,10 @@ class CfgFunctions
 			{
 			   file = "AntistasiServerMembers\fn_getExternalMemberListUIDs.sqf";
 			};
+			class getExternalMemberListPlates
+			{
+			   file = "AntistasiServerMembers\fn_getExternalMemberListPlates.sqf";
+			};
 			class createRestartDialog
 			{
 				file = "AntistasiServerMembers\fn_createRestartDialog.sqf";
@@ -55,5 +59,5 @@ class CfgFunctions
 				file = "AntistasiServerMembers\fn_getUIDPermissions.sqf";
 			};
 	   };
-   };  
+   };
 };

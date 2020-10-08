@@ -19,7 +19,7 @@ class AntistasiServerMembers
 			// Check the ',' after the last entry! It must be absent!
 		};
 	};
-	
+
 	// Alternative way to store data, should be more organized
 	class MembersClasses
 	{
@@ -28,7 +28,7 @@ class AntistasiServerMembers
 			uid = "123123213";
 			name = "John";
 			comment = "John is a cool guy"; // This a comment line
-			customplate = "The Bob";// This a comment line
+			customplate = "The Bob";// This for custom license plates on vehicles, not currently used. MAX 15 CHARACTERS!
 			// You can put any other data here for future use in case you need it
 			// Only uid is being really used now
 		};
@@ -38,7 +38,7 @@ class AntistasiServerMembers
 			uid = "666";
 			name = "James";
 			comment = "James is a cool guy"; // This a comment line
-			customplate = "Jameski";// This a comment line
+			customplate = "Jameski";// This for custom license plates on vehicles, not currently used. MAX 15 CHARACTERS!
 		};
 	};
 };
